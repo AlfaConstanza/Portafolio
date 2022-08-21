@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap"); /* font logo */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"); /* font general */
+
+body {
+  background-color: rgb(255, 247, 239);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.logoText h1 {
+  font-family: "Emilys Candy", cursive;
+  font-size: 3rem;
+  height: 60px;
+  letter-spacing: 0.1em;
+  margin-left: 1em;
+}
+
+.navbar-nav a {
+  margin: 0 6em;
+}
+
+/* project title */
+.center {
+  text-align: center;
+  margin-top: 12em;
+}
+
+.center h2 {
+  font-size: 3.5rem;
+}
+
+/* font-size */
+h5 {
+  font-size: 2rem;
+}
+
+h6,
+p,
+a {
+  font-size: 18px;
+}
+
+/* cards */
+.font {
+  font-weight: 600;
+}
+
+/* fontawesome */
+.card-body i {
+  font-size: 1.2em;
+}
+
+.card-body a:link {
+  text-decoration: none !important;
+}
+
+.card-body a {
+  color: white;
+}
+
+.justify {
+  text-align: left;
+}
+/* line spacing */
+.justify i {
+  line-height: 2;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* fontawesome */
+.fa-square-check {
+  padding-right: 10px;
+}
+
+/* btn github */
+.card-body .github {
+  width: 45%;
+  text-align: center;
+}
+
+.fa-github,
+.fa-square-github {
+  padding-right: 10px;
+}
+
+.card-body .btn-github2 {
+  margin-left: 30px;
+}
+
+.card-body .btn-github1 {
+  margin-left: 8px;
+}
+
+/* second and third cards-row */
+.mt-0 {
+  margin-top: -7rem !important;
+}
+
+.footer {
+  background-color: rgba(219, 219, 219, 0.6);
+  text-align: center;
+  padding: 1em 0 0.1em 0;
+  margin-top: 3em;
+}
